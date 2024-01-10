@@ -1,19 +1,22 @@
-HelloWorld.java:
+// HelloWorld.java
+
 public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
- cd /path/to/your/directory
-Compile the Java Class:
-Compile the Java class using the javac command:
+    public static void main(String[] args) {<br>
+        System.out.println("Hello, World!");<br>
+    }<br>
+}<br>
+Compile and Run Instructions:<br>
+Navigate to your project directory:<br>
 
 
- javac HelloWorld.java
-This will generate a HelloWorld.class file.
-
-Run the Java Class:
-Run the compiled Java class using the java command:
+cd /path/to/your/directory<br>
+Compile the Java Class using the javac command:<br>
 
 
- java HelloWorld
+javac HelloWorld.java<br>
+This will generate a HelloWorld.class file.<br>
+
+Run the Java Class using the java command:<br>
+
+
+java HelloWorld
